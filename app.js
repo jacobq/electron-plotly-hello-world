@@ -1,5 +1,2 @@
-const Plotly = require('plotly.js');
-
-console.log('Hello world, electron <3 plotly.js');
+console.log('Hello world, plotly.js version =', Plotly.version);
 Plotly.newPlot('plotly-div', []);
-

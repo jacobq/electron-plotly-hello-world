@@ -2,21 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
-<!-- Plotly uses cwise which needs some unsafe inline/eval permissions,
-     so just ignore the security warning for now :S
-     Uncomment the next line to address the warning & break plotly.js
--->
-<!--
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; font-src 'self'; frame-src 'none'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; media-src 'self'; ">
--->
-    <title>Electron Hello World!</title>
+    <title>plotly.js test</title>
   </head>
   <body>
-    <h1>Electron Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <h1>Plotly.js div follows</h1>
     <div id="plotly-div"></div>
-    <script src='./app.js'></script>
+    <script src="plotly.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
